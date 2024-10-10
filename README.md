@@ -43,7 +43,9 @@ These books serve as the foundation for creating the fine-tuning dataset stored 
    - Fine-tuning allows the model to improve its ability to understand and generate embeddings tailored to the domain-specific knowledge from the textbooks.
    - IMPORTANT: Make sure Grobid is running. 
 To do this, ensure Docker Desktop is open and then run the following command in your terminal:
+```
 docker run -t --rm --init -p 8070:8070 -p 8071:8071 grobid/grobid:0.7.0
+```
 This will start Grobid on ports 8070 and 8071, which is needed for the parsing to work.
 
 
