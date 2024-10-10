@@ -60,3 +60,6 @@ This repository demonstrates how to fine-tune an embedding model using domain-sp
 ---
 
 Anyone can replicate this process to fine-tune any open-source embedding model with their own domain-specific data.
+
+The dataset can also be accessed in HuggingFace via link below:
+https://huggingface.co/datasets/AhmetAytar/fine_tune_embdding_17_book_grobid_semantic
